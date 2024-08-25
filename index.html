@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REST API Frontend</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>REST API Frontend</h1>
+
+    <section>
+        <h2>POST Request</h2>
+        <form id="postForm">
+            <label for="postData">Enter data (JSON format):</label>
+            <textarea id="postData" rows="5" cols="50" required></textarea>
+            <button type="submit">Send POST Request</button>
+        </form>
+        <div id="postResponse"></div>
+    </section>
+
+    <section>
+        <h2>GET Request</h2>
+        <button id="getButton">Send GET Request</button>
+        <div id="getResponse"></div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
